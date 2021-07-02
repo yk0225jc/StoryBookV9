@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './Logo'
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -156,9 +156,9 @@ export const logoTable = () =>
     <TableHead>
       <TableRow>
         <StyledTableCell>Image</StyledTableCell>
-        <StyledTableCell align="left">Description</StyledTableCell>
-        <StyledTableCell align="left">Image Name</StyledTableCell>
-        <StyledTableCell align="left">Color</StyledTableCell>
+        <StyledTableCell align="center">Description</StyledTableCell>
+        <StyledTableCell align="center">Image Name</StyledTableCell>
+        <StyledTableCell align="center">Color</StyledTableCell>
       </TableRow>
     </TableHead>
     <TableBody>
@@ -167,9 +167,9 @@ export const logoTable = () =>
           <StyledTableCell component="th" scope="row">
             {row.Image}
           </StyledTableCell>
-          <StyledTableCell align="left">{row.Description}</StyledTableCell>
-          <StyledTableCell align="left">{row.ImageName}</StyledTableCell>
-          <StyledTableCell align="left">{row.Color}</StyledTableCell>
+          <StyledTableCell align="center">{row.Description}</StyledTableCell>
+          <StyledTableCell align="center">{row.ImageName}</StyledTableCell>
+          <StyledTableCell align="center">{row.Color}</StyledTableCell>
         </StyledTableRow>
       ))}
     </TableBody>

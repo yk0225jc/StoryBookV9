@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.38 55.54" width="70.38" height="55.54">
+  <defs>
+    <style>
+      .a {
+        fill: #f5b100;
+      }
+    </style>
+  </defs>
+  <title>cart_blk</title>
+  <g>
+    <circle class="a" cx="59.65" cy="48.76" r="6.78"/>
+    <path class="a" d="M27.71,31.72,15.12,1.59v0h0v0l0,0L.76,0,0,7,10.23,8.09,25.93,45.7A6.78,6.78,0,1,0,32,42l-1.35-3.25H70.38v-7Z"/>
+  </g>
+</svg>

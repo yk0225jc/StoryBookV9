@@ -1,16 +1,13 @@
 import React from 'react';
-import './Icons.css';
+import './MUIIcons.css';
 
 
 
-
-const Icons = (props) => {
-    const {size = 'iconsmall', ...rest} = props;
+export const MUIIcon = (props) => {
+    const {size = 'iconSmall', ...rest} = props;
     return (
         <>
         <img className={`icon ${size}`} alt='img' {...rest} />.
         </>
     );
 }
-
-export default Icons;
