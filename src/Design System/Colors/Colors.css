@@ -1,0 +1,299 @@
+#title {
+  font-family: "Proxima Nova Bold", "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#messagetitle {
+  position: absolute;
+  top: 250px;
+  font-family: "Proxima Nova Bold", "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#neutralstitle {
+  position: absolute;
+  top: 480px;
+  font-family: "Proxima Nova Bold", "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#othertitle {
+  position: absolute;
+  top: 710px;
+  font-family: "Proxima Nova Bold", "Proxima Nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.squarebox {
+  border-width: 0px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+
+.blackcolor {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.textInbox {
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  padding: 2px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#code {
+  position: absolute;
+  text-align: center;
+  left: 47px;
+  top: 40px;
+}
+
+.accentcolor {
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(245, 177, 0);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.calltoActioncolor {
+  position: absolute;
+  left: 360px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(153, 0, 0);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.linkcolor {
+  position: absolute;
+  left: 540px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(20, 96, 170);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.linkOnBgcolor {
+  position: absolute;
+  left: 720px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(11, 145, 207);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.informationcolor {
+  position: absolute;
+  left: 0px;
+  top: 235px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(133, 98, 11);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.informationBGcolor {
+  position: absolute;
+  left: 180px;
+  top: 235px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(250, 235, 191);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.successcolor {
+  position: absolute;
+  left: 360px;
+  top: 235px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 133, 0);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.warningcolor {
+  position: absolute;
+  left: 540px;
+  top: 235px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(224, 0, 0);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.gray1color {
+  position: absolute;
+  left: 0px;
+  top: 465px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(80, 80, 80);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.gray2color {
+  position: absolute;
+  left: 180px;
+  top: 465px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(137, 137, 137);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.gray3color {
+  position: absolute;
+  left: 360px;
+  top: 465px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(200, 200, 200);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.gray4color {
+  position: absolute;
+  left: 540px;
+  top: 465px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(229, 229, 229);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.gray5color {
+  position: absolute;
+  left: 720px;
+  top: 465px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.careerscolor {
+  position: absolute;
+  left: 0px;
+  top: 700px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(11, 145, 207);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+}
+
+.ACCContainer{
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 930px;
+}

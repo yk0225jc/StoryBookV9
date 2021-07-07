@@ -1,0 +1,174 @@
+#h1HeadingText {
+  display: flex;
+  font-size: 48px;
+  font-family: ProximaNovaCond-Bold, "Proxima Nova Condensed Bold",
+    "Proxima Nova Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#h1image {
+  position: relative;
+  display: flex;
+  margin-top: -10px;
+  left: 100px;
+  width: 48px;
+  height: 72px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+#imageLabel {
+  position: relative;
+  left: 95px;
+  width: 69px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #ffff00;
+}
+
+#fontName {
+  position: relative;
+  font-family: "Arial Bold", "Arial", sans-serif;
+  font-weight: bold;
+  width: 350px;
+  height: 111px;
+  font-size: 14px;
+}
+
+/* H2 SubHeading */
+#h2HeadingText {
+  position: relative;
+  display: flex;
+  font-size: 24px;
+  font-family: "ProximaNova-Bold", "Proxima Nova Bold", "Proxima Nova",
+    sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#h2image {
+  position: relative;
+  display: flex;
+  margin-top: -10px;
+  left: 100px;
+  width: 24px;
+  height: 36px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+/*H3 SubHeading*/
+#h3HeadingText {
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-family: "ProximaNova-Bold", "Proxima Nova Bold", "Proxima Nova",
+    sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#h3image {
+  position: relative;
+  display: flex;
+  margin-top: -10px;
+  left: 100px;
+  width: 24px;
+  height: 36px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+/* Body copy */
+#bodyText {
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  line-height: 24px;
+}
+
+#bodyimage {
+  position: relative;
+  display: flex;
+  margin-top: -4px;
+  left: 100px;
+  width: 16px;
+  height: 24px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+#bodyp {
+  color: #000000;
+  text-align: left;
+  line-height: 24px;
+  width: 55%;
+}
+
+/* Small Body copy */
+#smallbodyText {
+  position: relative;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  line-height: 16px;
+}
+
+#smallbodyimage {
+  position: relative;
+  display: flex;
+  margin-top: -4px;
+  left: 100px;
+  width: 16px;
+  height: 24px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+/* H2 Subheading for Promotion Copy */
+#h2headingproText{
+  position: relative;
+  display: flex;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Proxima Nova Black', 'Proxima Nova', sans-serif;
+  font-style: normal;
+  line-height: 24px;
+}
+
+#h2headingproimage{
+  position: relative;
+  display: flex;
+  margin-top: 0px;
+  left: 100px;
+  width: 24px;
+  height: 24px;
+  transform: rotate(270deg);
+  text-align: center;
+}
+
+#h2headingpropara{
+  color: #000000;
+  text-align: left;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 65%;
+
+}
+#h2headingproimage2{
+  position: relative;
+  display: flex;
+  margin-top: -20px;
+  width: 16px;
+  left : 100px;
+  height: 24px;
+  transform: rotate(270deg);
+  text-align: center;
+}
