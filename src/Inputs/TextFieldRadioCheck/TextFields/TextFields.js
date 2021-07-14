@@ -6,9 +6,22 @@ import "./TextFields.css";
 
 export const CssTextField = withStyles({
   root: {
-    "& label.Mui-focused fieldset": {
-      color: "rgba(11, 145, 207, 1)",
+
+    "& input:focus":{
+      borderColor: "green", //not working
+      borderWidth: "2px",
+      borderRadius: 3,
+      boxShadow: "0px 0px 5px rgb(11 145 207 / 35%)",
     },
+
+    // "&input.Mui-focused":{
+    //   borderColor: "green", //not working
+    //   borderWidth: "2px",
+    //   borderRadius: 3,
+    //   boxShadow: "0px 0px 5px rgb(11 145 207 / 35%)",
+    // },
+
+   
     "& input:valid": {
       borderColor: "rgba(0, 133, 0, 1)",
       borderWidth: 2,

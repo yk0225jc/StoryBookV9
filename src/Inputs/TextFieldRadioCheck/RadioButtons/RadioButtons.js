@@ -1,27 +1,24 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
-import { gray } from "@material-ui/core/colors";
 import Radio from "@material-ui/core/Radio";
-
-import "./RadioButton.css";
+import './RadioButton.css'
 
 const GreenRadio = withStyles({
   root: {
-    color: gray,
+    color: "rgb(0,133,0)",
+    backgroundColor: 'white',
+    padding: "0px",
+    margin: "0px",
+    left: "10px",
+    top: "10px",
     "&$checked": {
-      color: "rgb(22,143,22)",
+      color: "rgb(0,133,0)",
     },
   },
-  icon: {
-    backgroundColor: "white",
-
-
-},
-
   checked: {},
 })((props) => <Radio color="default" {...props} />);
 
-export function RadioButton1() {
+export function RadioButtons() {
   const [selectedValue, setSelectedValue] = React.useState("a");
 
   const handleChange = (event) => {
@@ -38,6 +35,7 @@ export function RadioButton1() {
           name="radio-button-demo"
           inputProps={{ "aria-label": "C" }}
         />
+
       </div>
     </div>
   );
