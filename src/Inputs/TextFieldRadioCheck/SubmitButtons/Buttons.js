@@ -35,7 +35,7 @@ export const ContainerButton = withStyles({
       width: "187px",
       height: "53px",
       border: "2px",
-      color: "rgb(244,244,244)",
+      color: "rgb(242,242,242)",
       fontWeight: 600,
       backgroundColor: "rgba(128, 128, 128, 1)",
       borderColor: "black",

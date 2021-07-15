@@ -5,8 +5,9 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 const useStyles = makeStyles((theme) => ({
     root: {
       position: 'relative',
-      left: 20,
-      color: 'rgb(204,204,204)',
+      left: 150,
+      top: -45,
+      color: 'white',
 
       
 
@@ -19,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     },
     circle: {
       strokeLinecap: 'round',
+      color: 'rgb(242,242,242)'
     },
   }));
   
@@ -34,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
           classes={{
             circle: classes.circle,
           }}
-          size={30}
+          size={19}
           thickness={5}
           {...props}
         />

@@ -17,7 +17,6 @@ const useStyles = makeStyles({
     height: 24,
     boxShadow: 'inset 0 0 0 1px rgba(16,22,26,.2), inset 0 -1px 0 rgba(16,22,26,.1)',
     backgroundColor: '#f5f8fa',
-    backgroundImage: Checkmark,
 
     'input:disabled ~ &': {
       boxShadow: 'none',
@@ -30,7 +29,7 @@ const useStyles = makeStyles({
     '&:before': {
       width: 20,
       height: 50,
-      backgroundImage: Checkmark,
+      backgroundImage: `url(${Checkmark})`,
       content: '""',
     },
 
