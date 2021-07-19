@@ -22,6 +22,10 @@ export const parameters = {
         name: 'black',
         value: '#000000',
       },
+      {
+        name: 'gray',
+        value: 'rgb(242, 242, 242)',
+      },
     ],
   },
 
