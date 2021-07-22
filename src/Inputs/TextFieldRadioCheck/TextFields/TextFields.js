@@ -6,22 +6,22 @@ import "./TextFields.css";
 
 export const CssTextField = withStyles({
   root: {
+    width: 300,
+    height: 48,
+    fontSize: 14,
+    padding: "2px 2px 2px 10px",
 
-    "& input:focus":{
-      borderColor: "green", //not working
+    "& .MuiInputLabel-outlined.MuiInputLabel-shrink": {
+      transform: "translate(21px, -6px) scale(0.75)",
+      backgroundColor: "white",
+    },
+
+    "& input:focus": {
       borderWidth: "2px",
       borderRadius: 3,
       boxShadow: "0px 0px 5px rgb(11 145 207 / 35%)",
     },
 
-    // "&input.Mui-focused":{
-    //   borderColor: "green", //not working
-    //   borderWidth: "2px",
-    //   borderRadius: 3,
-    //   boxShadow: "0px 0px 5px rgb(11 145 207 / 35%)",
-    // },
-
-   
     "& input:valid": {
       borderColor: "rgba(0, 133, 0, 1)",
       borderWidth: 2,
@@ -30,21 +30,6 @@ export const CssTextField = withStyles({
       borderColor: "rgba(153, 0, 0, 1)",
       borderWidth: 2,
     },
-
-    // "& .MuiInput-underline:after": {
-    //   borderBottomColor: "rgba(11, 145, 207, 1)",
-    // },
-    // "& .MuiOutlinedInput-root": {
-    //   "& fieldset": {
-    //     borderColor: "rgba(121, 121, 121, 1)",
-    //   },
-    //   // "&:hover fieldset": {
-    //   //   borderColor: "rgba(121, 121, 121, 1)",
-    //   // },
-    //   // "&.Mui-focused fieldset": {
-    //   //   borderColor: "rgba(11, 145, 207, 1)",
-    //   // },
-    // },
   },
 })(TextField);
 
@@ -72,7 +57,7 @@ export class TextfieldValidation extends Component {
         onChange={this.onChange.bind(this)}
         error={this.state.error}
         id="TextValid"
-        label="Placeholder+Label"
+        label="Label"
         variant="outlined"
       />
     );

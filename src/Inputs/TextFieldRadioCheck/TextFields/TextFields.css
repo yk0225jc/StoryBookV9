@@ -1,9 +1,24 @@
-#TextValid{
-    width: 300px;
-    height: 48px;
-    font-size: 14px;
-    padding: 2px 2px 2px 10px;
+/* focused border color */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(11, 145, 207)!important;
+    border-width : 2px !important;
+    border-radius: 3px !important;
 }
 
 
+/* focused label */
+.MuiFormLabel-root.Mui-focused{
+    color:black !important;
+    font-size: 21px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+label#TextValid-label {
+padding-left: 16px;
+padding-right: 16px;
+
+}
 

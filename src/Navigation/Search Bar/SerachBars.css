@@ -1,0 +1,86 @@
+.searchFieldBackground {
+  width: 830px;
+  height: 100px;
+  background: inherit;
+  background-color: rgb(0, 0, 0, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px rgb(0 0 0 / 35%);
+}
+
+.MuiOutlinedInput-input {
+  background-color: white !important;
+  border-radius: 3px;
+  padding: 0px !important;
+}
+
+.MuiInputBase-input {
+  height: 48px !important;
+}
+
+#searchLeftArrow {
+  position: relative;
+  left: 720px;
+  top: -59px;
+  padding: 12px;
+  font-size: 40px;
+  color: #505050;
+  opacity: 0.7;
+}
+
+#camera {
+  position: relative;
+  left: 572px;
+  top: -62px;
+  padding: 12px;
+  font-size: 32px;
+
+  color: #505050;
+  opacity: 1;
+}
+
+#upc {
+  position: relative;
+  left: 565px;
+  top: -62px;
+  padding: 12px;
+  font-size: 32px;
+
+  color: #505050;
+  opacity: 1;
+}
+
+#mic {
+  position: relative;
+  left: 406px;
+  top: -67px;
+  padding: 12px;
+  font-size: 34px;
+
+  color: #505050;
+  opacity: 1;
+}
+
+#divider {
+  position: relative;
+  left: 348px;
+  top: -58px;
+  padding: 12px;
+  font-size: 32px;
+
+  color: #505050;
+  opacity: 1;
+}
+
+#searchIcon {
+  position: relative;
+  left: 277px;
+  top: -59px;
+  padding: 12px;
+  font-size: 40px;
+  color: #505050;
+  opacity: 1;
+}

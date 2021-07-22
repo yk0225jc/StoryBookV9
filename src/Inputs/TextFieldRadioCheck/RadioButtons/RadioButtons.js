@@ -14,6 +14,9 @@ const GreenRadio = withStyles({
     "&$checked": {
       color: "rgb(0,133,0)",
     },
+    "&:hover":{
+      backgroundColor: "white"
+    }
   },
   checked: {},
 })((props) => <Radio color="default" {...props} />);
@@ -37,6 +40,7 @@ export function RadioButtons() {
         />
 
       </div>
+
     </div>
   );
 }
